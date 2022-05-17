@@ -28,9 +28,14 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
+| <a name="input_csirtmu_tiny_disk"></a> [csirtmu\_tiny\_disk](#input\_csirtmu\_tiny\_disk) | Disk size of csirtmu tiny flavor in GB | `string` | `"20"` | no |
+| <a name="input_csirtmu_tiny_ram"></a> [csirtmu\_tiny\_ram](#input\_csirtmu\_tiny\_ram) | RAM size of csirtmu tiny flavor in MB | `string` | `"2048"` | no |
 | <a name="input_standard_large_disk"></a> [standard\_large\_disk](#input\_standard\_large\_disk) | Disk size of standard large flavor in GB | `string` | `"80"` | no |
+| <a name="input_standard_large_ram"></a> [standard\_large\_ram](#input\_standard\_large\_ram) | RAM size of standard large flavor in MB | `string` | `"16384"` | no |
 | <a name="input_standard_medium_disk"></a> [standard\_medium\_disk](#input\_standard\_medium\_disk) | Disk size of standard medium flavor in GB | `string` | `"80"` | no |
+| <a name="input_standard_medium_ram"></a> [standard\_medium\_ram](#input\_standard\_medium\_ram) | RAM size of standard medium flavor in MB | `string` | `"4096"` | no |
 | <a name="input_standard_small_disk"></a> [standard\_small\_disk](#input\_standard\_small\_disk) | Disk size of standard small flavor in GB | `string` | `"80"` | no |
+| <a name="input_standard_small_ram"></a> [standard\_small\_ram](#input\_standard\_small\_ram) | RAM size of standard small flavor in MB | `string` | `"2048"` | no |
 
 ## Outputs
 

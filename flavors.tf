@@ -1,11 +1,3 @@
-resource "openstack_compute_flavor_v2" "csirtmu_tiny" {
-  name      = "csirtmu.tiny1x2"
-  ram       = var.csirtmu_tiny_ram
-  vcpus     = "1"
-  disk      = var.csirtmu_tiny_disk
-  is_public = true
-}
-
 resource "openstack_compute_flavor_v2" "standard_small" {
   name      = "standard.small"
   ram       = var.standard_small_ram

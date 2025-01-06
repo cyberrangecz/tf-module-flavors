@@ -1,15 +1,3 @@
-variable "csirtmu_tiny_disk" {
-  type        = string
-  description = "Disk size of csirtmu tiny flavor in GB"
-  default     = "20"
-}
-
-variable "csirtmu_tiny_ram" {
-  type        = string
-  description = "RAM size of csirtmu tiny flavor in MB"
-  default     = "2048"
-}
-
 variable "standard_small_disk" {
   type        = string
   description = "Disk size of standard small flavor in GB"
